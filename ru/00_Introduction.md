@@ -46,10 +46,10 @@ API. Каждая деталь относящаяся к графическом�
 * [PBR - Книга по "Физически корректному рендерингу"](http://www.pbr-book.org/)
 * Vulkan используют в настоящих игровых движках с открым исходным кодом [Quake](https://github.com/Novum/vkQuake) и [DOOM 3](https://github.com/DustinHLand/vkDOOM3)
 
-You can use C instead of C++ if you want, but you will have to use a different
-linear algebra library and you will be on your own in terms of code structuring.
-We will use C++ features like classes and RAII to organize logic and resource
-lifetimes. There are also two alternative versions of this tutorial available for Rust developers: [Vulkano based](https://github.com/bwasty/vulkan-tutorial-rs), [Vulkanalia based](https://kylemayes.github.io/vulkanalia).
+Вы можете использовать C вместо C++, если хотите, но вам также придется использовать 
+библиотеку линейной алгебры, и вы будете предоставлены сами себе в плане структурирования кода.
+Мы будем использовать возможности C++, такие как классы и RAII, для организации логики и
+времени жизни объектов. Также есть две альтернативные версии этого руководства, доступные для разработчиков Rust: [Vulkano based](https://github.com/bwasty/vulkan-tutorial-rs), [Vulkanalia based](https://kylemayes.github.io/vulkanalia).
 
 To make it easier to follow along for developers using other programming languages, and to get some experience with the base API we'll be using the original C API to work with Vulkan. If you are using C++, however, you may prefer using the newer [Vulkan-Hpp](https://github.com/KhronosGroup/Vulkan-Hpp) bindings that abstract some of the dirty work and help prevent certain classes of errors.
 
