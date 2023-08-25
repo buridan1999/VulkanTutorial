@@ -28,13 +28,13 @@ API. Каждая деталь относящаяся к графическом�
 или [Unity](https://en.wikipedia.org/wiki/Unity_(game_engine)), которые способны
 использовать Vulkan, предоставляя более высокоуровневое API.
 
-With that out of the way, let's cover some prerequisites for following this
-tutorial:
+Разобравшись с этим, давайте рассмотрим некоторые предварительные условия 
+для выполнения этого руководства:
 
-* A graphics card and driver compatible with Vulkan ([NVIDIA](https://developer.nvidia.com/vulkan-driver), [AMD](http://www.amd.com/en-us/innovations/software-technologies/technologies-gaming/vulkan), [Intel](https://software.intel.com/en-us/blogs/2016/03/14/new-intel-vulkan-beta-1540204404-graphics-driver-for-windows-78110-1540), [Apple Silicon (Or the Apple M1)](https://www.phoronix.com/scan.php?page=news_item&px=Apple-Silicon-Vulkan-MoltenVK))
-* Experience with C++ (familiarity with RAII, initializer lists)
-* A compiler with decent support of C++17 features (Visual Studio 2017+, GCC 7+, Or Clang 5+)
-* Some existing experience with 3D computer graphics
+* Графический адаптер и драйвер совместимые с Vulkan ([NVIDIA](https://developer.nvidia.com/vulkan-driver), [AMD](http://www.amd.com/en-us/innovations/software-technologies/technologies-gaming/vulkan), [Intel](https://software.intel.com/en-us/blogs/2016/03/14/new-intel-vulkan-beta-1540204404-graphics-driver-for-windows-78110-1540), [Apple Silicon (Or the Apple M1)](https://www.phoronix.com/scan.php?page=news_item&px=Apple-Silicon-Vulkan-MoltenVK))
+* Опыт использования C++ (понимание RAII, initializer lists)
+* Компилятор с поддержкой возможностей стандарта C++17 (Visual Studio 2017+, GCC 7+, Or Clang 5+)
+* Опыт работы с 3D графикой
 
 This tutorial will not assume knowledge of OpenGL or Direct3D concepts, but it
 does require you to know the basics of 3D computer graphics. It will not explain
