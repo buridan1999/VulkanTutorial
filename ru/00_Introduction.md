@@ -55,8 +55,8 @@ API. Каждая деталь относящаяся к графическом�
 
 ## E-book
 
-If you prefer to read this tutorial as an e-book, then you can download an EPUB
-or PDF version here:
+Если вы предпочитаете читать этот гайд в виде электронной книги, то вы можете скачать версию в формате EPUB
+или PDF здесь:
 
 * [EPUB](https://vulkan-tutorial.com/resources/vulkan_tutorial_en.epub)
 * [PDF](https://vulkan-tutorial.com/resources/vulkan_tutorial_en.pdf)
