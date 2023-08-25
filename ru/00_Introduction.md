@@ -19,14 +19,14 @@ API. Каждая деталь относящаяся к графическом�
 проверок на корректность поступающих команд, что означает, то что вам придётся 
 осуществлять данную работу самому, чтобы быть уверенным в корректном поведении ПО.
 
-The takeaway message here is that Vulkan is not for everyone. It is targeted at
-programmers who are enthusiastic about high performance computer graphics, and
-are willing to put some work in. If you are more interested in game development,
-rather than computer graphics, then you may wish to stick to OpenGL or Direct3D,
-which will not be deprecated in favor of Vulkan anytime soon. Another
-alternative is to use an engine like [Unreal Engine](https://en.wikipedia.org/wiki/Unreal_Engine#Unreal_Engine_4)
-or [Unity](https://en.wikipedia.org/wiki/Unity_(game_engine)), which will be
-able to use Vulkan while exposing a much higher level API to you.
+Вывод: Vulkan не для всех. Данное API нацелено на программистов, которым нужна
+высокая производительность в компьютерной графике, и которые готовы потратить 
+на это время. Если вы  интересуетесь разработкой игр больше, чем компьютерной 
+графикой, тогда вам стоит обратить своё внимание на OpenGL и Direct3D, которые 
+точно не станут устаревшими на фоне Vulkan в близжайшее время. Другая
+альтернатива, использовать игровой двидок, как [Unreal Engine](https://en.wikipedia.org/wiki/Unreal_Engine#Unreal_Engine_4)
+или [Unity](https://en.wikipedia.org/wiki/Unity_(game_engine)), которые способны
+использовать Vulkan, предоставляя более высокоуровневое API.
 
 With that out of the way, let's cover some prerequisites for following this
 tutorial:
