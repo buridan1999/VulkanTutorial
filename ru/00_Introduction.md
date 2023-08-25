@@ -36,14 +36,15 @@ API. Каждая деталь относящаяся к графическом�
 * Компилятор с поддержкой возможностей стандарта C++17 (Visual Studio 2017+, GCC 7+, Or Clang 5+)
 * Опыт работы с 3D графикой
 
-This tutorial will not assume knowledge of OpenGL or Direct3D concepts, but it
-does require you to know the basics of 3D computer graphics. It will not explain
-the math behind perspective projection, for example. See [this online book](https://paroj.github.io/gltut/)
-for a great introduction of computer graphics concepts. Some other great computer graphics resources are:
+Данный гайд не предполагает понимание концептов OpenGL или Direct3D, но требует
+от вас понимания основ компьютерной 3D графики. Здесь не будут объясняться такие
+темы из математики, как проекция перспективы, например. Для введения в компьютерную 
+графику, смотрите [данную электронную книгу](https://paroj.github.io/gltut/).
+Вот ещё несколько хороших материалов по данной теме:
 
-* [Ray tracing in one weekend](https://github.com/RayTracing/raytracing.github.io)
-* [Physically Based Rendering book](http://www.pbr-book.org/)
-* Vulkan being used in a real engine in the open-source [Quake](https://github.com/Novum/vkQuake) and [DOOM 3](https://github.com/DustinHLand/vkDOOM3)
+* [Ray tracing за выходные](https://github.com/RayTracing/raytracing.github.io)
+* [PBR - Книга по "Физически корректному рендерингу"](http://www.pbr-book.org/)
+* Vulkan используют в настоящих игровых движках с открым исходным кодом [Quake](https://github.com/Novum/vkQuake) и [DOOM 3](https://github.com/DustinHLand/vkDOOM3)
 
 You can use C instead of C++ if you want, but you will have to use a different
 linear algebra library and you will be on your own in terms of code structuring.
