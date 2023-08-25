@@ -51,7 +51,7 @@ API. Каждая деталь относящаяся к графическом�
 Мы будем использовать возможности C++, такие как классы и RAII, для организации логики и
 времени жизни объектов. Также есть две альтернативные версии этого руководства, доступные для разработчиков Rust: [Vulkano based](https://github.com/bwasty/vulkan-tutorial-rs), [Vulkanalia based](https://kylemayes.github.io/vulkanalia).
 
-To make it easier to follow along for developers using other programming languages, and to get some experience with the base API we'll be using the original C API to work with Vulkan. If you are using C++, however, you may prefer using the newer [Vulkan-Hpp](https://github.com/KhronosGroup/Vulkan-Hpp) bindings that abstract some of the dirty work and help prevent certain classes of errors.
+Чтобы разработчикам, использующим другие языки программирования, было проще ориентироваться, и чтобы получить некоторый опыт работы с базовым API, мы будем использовать оригинальный C API для работы с Vulkan. Однако, если вы используете C++, вы можете предпочесть использовать более новую обёртку для C++ [Vulkan-Hpp](https://github.com/KhronosGroup/Vulkan-Hpp ), которая абстрагируют часть грязной работы и помогает предотвратить определенные классы ошибок.
 
 ## E-book
 
